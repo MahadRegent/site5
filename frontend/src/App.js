@@ -33,6 +33,8 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/terms" element={<TermsOfService />} />
+            <Route path="/privacy" element={<PrivacyPolicy />} />
             {/* Блокировка всех остальных путей - перенаправление на главную */}
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
