@@ -423,8 +423,35 @@ const HomePage = () => {
                 </ul>
               </div>
             </div>
-            <div className="border-t border-gray-700/50 mt-8 pt-8 text-center text-gray-300">
-              <p>&copy; 2025 VORTEXHOST. Все права защищены.</p>
+            <div className="border-t border-gray-700/50 mt-8 pt-8">
+              <div className="grid md:grid-cols-2 gap-8 mb-6">
+                <div>
+                  <h4 className="text-white font-semibold mb-4">Информация о компании</h4>
+                  <div className="text-gray-300 space-y-2 text-sm">
+                    <p><strong>VORTEXHOST LLC</strong></p>
+                    <p>Регистрационный номер: 37-8912345</p>
+                    <p>251 Little Falls Drive, Wilmington, DE, 19808</p>
+                  </div>
+                </div>
+                <div>
+                  <h4 className="text-white font-semibold mb-4">Правовая информация</h4>
+                  <div className="text-gray-300 space-y-2 text-sm">
+                    <p>
+                      <Link to="/terms" className="hover:text-white transition-colors duration-200 underline">
+                        Условия предоставления услуг
+                      </Link>
+                    </p>
+                    <p>
+                      <Link to="/privacy" className="hover:text-white transition-colors duration-200 underline">
+                        Политика конфиденциальности
+                      </Link>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="text-center text-gray-300">
+                <p>&copy; 2025 VORTEXHOST LLC. Все права защищены.</p>
+              </div>
             </div>
           </div>
         </div>
