@@ -443,6 +443,7 @@ const HomePage = () => {
                     <p><strong>VORTEXHOST LLC</strong></p>
                     <p>Регистрационный номер: 37-8912345</p>
                     <p>251 Little Falls Drive, Wilmington, DE, 19808</p>
+                    <p>Email: <a href="mailto:vortexhost3@gmail.com" className="hover:text-white transition-colors duration-200 underline">vortexhost3@gmail.com</a></p>
                   </div>
                 </div>
                 <div>
