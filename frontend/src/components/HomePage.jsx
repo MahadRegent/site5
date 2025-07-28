@@ -70,6 +70,10 @@ const HomePage = () => {
     window.open('https://discord.gg/u2qvmqpNfh', '_blank');
   };
 
+  const handleTelegramClick = () => {
+    window.open('https://t.me/vortexhostminecraft', '_blank');
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-slate-900 overflow-hidden">
       {/* Оригинальная навигация без backdrop blur и scroll progress */}
