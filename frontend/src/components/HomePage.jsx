@@ -415,7 +415,14 @@ const HomePage = () => {
               <div className="transform transition-all duration-300 hover:scale-105">
                 <h4 className="text-white font-semibold mb-4">Соцсети</h4>
                 <ul className="space-y-2 text-gray-300">
-                  <li className="hover:text-white transition-colors duration-200">Telegram</li>
+                  <li>
+                    <button 
+                      onClick={handleTelegramClick}
+                      className="hover:text-white transition-all duration-200 transform hover:scale-105"
+                    >
+                      Telegram
+                    </button>
+                  </li>
                   <li className="hover:text-white transition-colors duration-200">VK</li>
                   <li>
                     <button 
