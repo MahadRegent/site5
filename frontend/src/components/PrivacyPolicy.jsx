@@ -55,7 +55,8 @@ const PrivacyPolicy = () => {
                 <p><strong>Компания:</strong> VORTEXHOST LLC</p>
                 <p><strong>Регистрационный номер:</strong> 37-8912345</p>
                 <p><strong>Адрес:</strong> 251 Little Falls Drive, Wilmington, DE, 19808</p>
-                <p><strong>Дата вступления в силу:</strong> 26 июля 2025 года</p>
+                <p><strong>Email для связи:</strong> <a href="mailto:vortexhost3@gmail.com" className="text-blue-400 hover:text-blue-300 underline">vortexhost3@gmail.com</a></p>
+                <p><strong>Дата вступления в силу:</strong> 28 июля 2025 года</p>
               </CardContent>
             </Card>
 
