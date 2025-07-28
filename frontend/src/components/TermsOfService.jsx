@@ -55,7 +55,7 @@ const TermsOfService = () => {
                 <p><strong>Компания:</strong> VORTEXHOST LLC</p>
                 <p><strong>Регистрационный номер:</strong> 37-8912345</p>
                 <p><strong>Адрес:</strong> 251 Little Falls Drive, Wilmington, DE, 19808</p>
-                <p><strong>Дата вступления в силу:</strong> 26 июля 2025 года</p>
+                <p><strong>Дата вступления в силу:</strong> 28 июля 2025 года</p>
               </CardContent>
             </Card>
 
