@@ -444,6 +444,12 @@ const HomePage = () => {
                     <p>Регистрационный номер: 37-8912345</p>
                     <p>251 Little Falls Drive, Wilmington, DE, 19808</p>
                     <p>Email: <a href="mailto:vortexhost3@gmail.com" className="hover:text-white transition-colors duration-200 underline">vortexhost3@gmail.com</a></p>
+                    
+                    <div className="border-t border-gray-600/50 pt-4 mt-4">
+                      <p><strong>GLOGAMING LLC</strong></p>
+                      <p>Reg Number: 36-5040821</p>
+                      <p>919 North Market st., Suite 950, Wilmington, DE, 19801</p>
+                    </div>
                   </div>
                 </div>
                 <div>
